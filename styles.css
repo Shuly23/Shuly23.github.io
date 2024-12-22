@@ -4,7 +4,7 @@ body {
     font-family: 'Arial', sans-serif;
     color: #f4f4f4;
     background-color: #1e1e2f; /* Fallback en caso de que la imagen no cargue */
-    background-image: url('file:///E:/win%2010%20y%20ubuntu/logo.png'); /* Ruta absoluta */
+    background-image: url('logo.png'); /* Ruta relativa */
     background-size: cover; /* La imagen cubre toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-attachment: fixed; /* La imagen se queda fija al hacer scroll */
