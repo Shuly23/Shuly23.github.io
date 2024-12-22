@@ -4,7 +4,7 @@ body {
     font-family: 'Arial', sans-serif;
     color: #f4f4f4;
     background-color: #1e1e2f; /* Fallback en caso de que la imagen no cargue */
-    background-image: url('logo.png'); /* Ruta relativa */
+    background-image: url('file:///E:/win%2010%20y%20ubuntu/logo.png'); /* Ruta absoluta */
     background-size: cover; /* La imagen cubre toda la pantalla */
     background-position: center; /* Centra la imagen */
     background-attachment: fixed; /* La imagen se queda fija al hacer scroll */
@@ -79,64 +79,5 @@ body::before {
 
 .hero p {
     font-size: 1.2rem;
-    margin-bottom: 2rem;
 }
 
-/* Categories Section */
-.categories {
-    padding: 8rem 2rem; /* Aumenté el padding para mover más abajo las categorías */
-    text-align: center;
-}
-
-.categories h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    color: #ffd700;
-}
-
-.category-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1.5rem;
-}
-
-.card {
-    padding: 2rem;
-    background-color: #302b63;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: bold;
-    transition: transform 0.3s;
-    color: #fff; /* Cambié el color del texto a blanco */
-}
-
-.card:hover {
-    transform: scale(1.1);
-    background-color: #41416a;
-}
-
-/* Footer */
-.main-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #24243e;
-    border-top: 2px solid #41416a;
-    margin-top: 5rem; /* Aumenté el espacio entre las categorías y el pie de página */
-}
-
-.main-footer p {
-    margin: 0;
-    font-size: 0.9rem;
-}
-
-/* Asegura que el pie de página quede al fondo */
-html, body {
-    height: 100%;
-}
-
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
